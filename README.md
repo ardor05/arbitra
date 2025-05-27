@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+<div align="center">
+  <img src="public/logo.svg" alt="Arbitra Logo" width="120" height="120">
 
-## Project info
+  # Arbitra Trading Platform
 
-**URL**: https://lovable.dev/projects/e59ce60c-8e49-4fdc-aaf0-cdef6087f75f
+  ### Algorithmic Trading Simplified
+</div>
 
-## How can I edit this code?
+## 🤖 About Arbitra
 
-There are several ways of editing your application.
+Arbitra is a cutting-edge crypto trading bot platform designed to make algorithmic trading accessible to everyone. By combining powerful trading strategies with an intuitive user interface, Arbitra enables both beginners and experienced traders to deploy automated trading bots with confidence.
 
-**Use Lovable**
+**Try it now:** [https://arbitra.netlify.app/](https://arbitra.netlify.app/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e59ce60c-8e49-4fdc-aaf0-cdef6087f75f) and start prompting.
+## ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Intelligent Strategy Recommendations** - AI-powered analysis of your trading preferences to suggest optimal strategies
+- **10+ Trading Strategies** - Including Conservative Grid, Momentum Scalper, Neural Arbitrage, DCA Bot, and more
+- **OKX Integration** - Seamless connectivity with OKX cryptocurrency exchange
+- **Mock Trading** - Test strategies with real-time market data before deploying real capital
+- **Advanced Price Charts** - TradingView-like charts with technical indicators and real-time updates
+- **Customizable Notifications** - Telegram integration with configurable update frequency
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v18+)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone https://github.com/ardor05/arbitra.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd arbitra
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Technologies
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Arbitra is built with a modern tech stack:
 
-**Use GitHub Codespaces**
+- **React** - UI framework
+- **TypeScript** - Type safety and developer experience
+- **Vite** - Fast, modern build tool
+- **Shadcn UI** - Beautiful, accessible component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **OKX API** - Real-time market data and trading functionality
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📋 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── api/            # API clients for OKX and other services
+├── components/     # UI components
+├── pages/          # Application pages
+│   ├── Landing.tsx           # Landing page with chatbot
+│   ├── Recommendations.tsx   # Strategy recommendations
+│   ├── MockTrading.tsx       # Mock trading simulator
+│   └── Deployment.tsx        # Bot deployment and monitoring
+└── utils/          # Utility functions
+```
 
-This project is built with:
+## 🔍 Features in Depth
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 1. Strategy Recommendation System
 
-## How can I deploy this project?
+Our AI-powered recommendation engine analyzes user preferences collected through a guided conversation to suggest optimal trading strategies based on risk tolerance, trading frequency, and preferred assets.
 
-Simply open [Lovable](https://lovable.dev/projects/e59ce60c-8e49-4fdc-aaf0-cdef6087f75f) and click on Share -> Publish.
+### 2. Mock Trading Simulation
 
-## Can I connect a custom domain to my Lovable project?
+Test trading strategies with real-time market data from OKX without risking real capital. The simulation provides detailed metrics including PnL, ROI, win rate, and trade history.
 
-Yes, you can!
+### 3. OKX Integration
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Seamlessly connect to OKX cryptocurrency exchange for wallet connectivity, real-time price data, and trading execution.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 4. Custom Notifications
+
+Receive alerts via Telegram with customizable frequency (real-time, hourly, daily) and notification types (trades, balance changes, market alerts, errors).
+
+## 👥 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Contact
+
+For any inquiries, please open an issue on this repository.
