@@ -1,9 +1,9 @@
 <div align="center">
   <img src="public/logo.svg" alt="Arbitra Logo" width="120" height="120">
 
-  # Arbitra
+  # ARBITRA
 
-  ### Algorithmic Trading Simplified
+  ### Choose Your Crypto Trading Bot
 </div>
 
 ## 🤖 About Arbitra
