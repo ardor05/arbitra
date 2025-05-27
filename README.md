@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/logo.svg" alt="Arbitra Logo" width="120" height="120">
 
-  # Arbitra Trading Platform
+  # Arbitra
 
   ### Algorithmic Trading Simplified
 </div>
