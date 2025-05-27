@@ -195,8 +195,15 @@ const Landing = () => {
         {/* Header */}
         <div className="text-center space-y-4">
           <div className="flex justify-center mb-4">
-            <div className="w-20 h-20 bg-gradient-to-r from-neon-cyan to-neon-green rounded-2xl flex items-center justify-center glass-morphism">
-              <Bot className="w-10 h-10 text-black" />
+            <div className="w-20 h-20 bg-[#00FFAA] rounded-2xl flex items-center justify-center">
+              <svg width="40" height="40" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 10H12C9.79086 10 8 11.7909 8 14V20C8 22.2091 9.79086 24 12 24H20C22.2091 24 24 22.2091 24 20V14C24 11.7909 22.2091 10 20 10Z" stroke="black" strokeWidth="2"/>
+                <rect x="12" y="14" width="3" height="3" rx="1" fill="black"/>
+                <rect x="17" y="14" width="3" height="3" rx="1" fill="black"/>
+                <path d="M13 20H19" stroke="black" strokeWidth="2" strokeLinecap="round"/>
+                <path d="M10 7C10 6.44772 10.4477 6 11 6H13C13.5523 6 14 6.44772 14 7V10H10V7Z" fill="black"/>
+                <path d="M18 7C18 6.44772 18.4477 6 19 6H21C21.5523 6 22 6.44772 22 7V10H18V7Z" fill="black"/>
+              </svg>
             </div>
           </div>
           <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-green to-neon-purple">
